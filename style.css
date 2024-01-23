@@ -53,3 +53,14 @@ section span {
 a {
     color: var(--link);
 }
+
+.text-cursor {
+    background-color: var(--darkgray);
+    animation: blink 1s step-start 0s infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0.0;
+    }
+}
