@@ -25,9 +25,14 @@ hr {
     opacity: 0.25;
 }
 
-p {
+p,
+li {
     color: var(--main-text);
     font-size: 1.1em;
+}
+
+li {
+    margin-bottom: 1.1em;
 }
 
 h3 {
