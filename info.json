@@ -1,0 +1,38 @@
+{
+    "projects": [{
+            "name": "slide",
+            "description": "Real-time communication app for anonymous text and video chat. Allows user to connect with strangers based on shared interest.",
+            "link": "https://github.com/knshnf/slide-chat",
+            "tags": ["React", "Node.js", "Tailwind", "WebRTC"],
+            "date": "December 2023 – January 2024"
+        },
+        {
+            "name": "Suleat",
+            "description": "Social app for sharing food taste and experience. Collaborated within an agile team following Scrum methodologies to successfully deliver the client's needs.",
+            "link": "",
+            "tags": ["Next.js", "Typescript", "Prisma", "Tailwind"],
+            "dates": "October 2023 – November 2023"
+        },
+        {
+            "name": "Palatable",
+            "description": "Restaurant review app. Worked with a team to develop a dynamic robust web application. Implemented functionality for user authentication, profile management, reviews, voting, and search.",
+            "link": "https://github.com/knshnf/2223T3-S18-G09",
+            "tags": ["MongoDB", "Express.js", "Node.js", "Bootstrap", "jQuery"],
+            "date": "June 2023 – August 2023"
+        },
+        {
+            "name": "2DFA Simulation",
+            "description": "Two-way accepter machine simulation following Dexter Kozen's 2DFA principles. Developed the simulation engine to process user-input strings, with options for step-by-step or fast-run simulation.",
+            "link": "https://github.com/knshnf/stalgcm-model",
+            "tags": ["Java"],
+            "date": "August 2023"
+        },
+        {
+            "name": "Stock Portfolio Management App",
+            "description": "Stock portfolio management web application with real-time stock data retrieval from IEX API and portfolio tracking.",
+            "link": "",
+            "tags": ["Python", "SQL", "Jinja", "Flask"],
+            "date": "August 2022"
+        }
+    ]
+}
