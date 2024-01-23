@@ -29,3 +29,22 @@ p {
     color: var(--main-text);
     font-size: 1.1em;
 }
+
+h3 {
+    margin-bottom: 0;
+}
+
+section p {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+section span {
+    background-color: var(--lightgray);
+    margin: 0.5em;
+    padding: 0.2em;
+}
+
+a {
+    color: var(--link);
+}
