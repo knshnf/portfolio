@@ -7,7 +7,7 @@ $(document).ready(function() {
 
             if (project.link !== "") {
                 projectSection += " <a href=\"" + project.link +
-                    "target=\"_blank\" rel=\"noopener noreferrer\"  \"> GitHub </a>";
+                    "\" target=\"_blank\" rel=\"noopener noreferrer\"  \"> GitHub </a>";
             }
 
             projectSection += "</p>";
