@@ -23,7 +23,7 @@
         {
             "name": "2DFA Simulation",
             "description": "Two-way accepter machine simulation following Dexter Kozen's 2DFA principles. Developed the simulation engine to process user-input strings, with options for step-by-step or fast-run simulation.",
-            "link": "https://github.com/knshnf/stalgcm-model",
+            "link": "https://github.com/knshnf/2dfa-simulation",
             "tags": ["Java"],
             "date": "August 2023"
         },
