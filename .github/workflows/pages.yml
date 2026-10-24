@@ -30,6 +30,10 @@ jobs:
           mkdir _site
           git ls-files -z | grep -zv '^\.github/' | xargs -0 cp --parents -t _site
           cp CV.pdf _site/
+          # Version asset URLs so browsers never mix a new page with cached files
+          v=${GITHUB_SHA::7}
+          sed -i "s/\(style\.css\|script\.js\|CV\.pdf\)\"/\1?v=$v\"/g" _site/index.html
+          sed -i "s/'info\.json'/'info.json?v=$v'/" _site/script.js
 
       - uses: actions/configure-pages@v5
 
