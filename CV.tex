@@ -1,0 +1,100 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[margin=0.5in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{microtype}
+\usepackage{enumitem}
+\usepackage[hidelinks,pdftitle={Kenshin Fetalvero CV},pdfauthor={Kenshin Fetalvero}]{hyperref}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlist[itemize]{label=$\bullet$, leftmargin=0.5in, labelsep=0.15in,
+  topsep=0pt, itemsep=0pt, parsep=0pt, partopsep=0pt, before=\raggedright}
+
+\newcommand{\gap}{\par\vspace{\baselineskip}}
+\newcommand{\heading}[1]{\gap{\centering\textbf{#1}\par}\vspace{\baselineskip}}
+% organization, location, title, dates
+\newcommand{\role}[4]{\textbf{#1}\hfill #2\par\textbf{#3}\hfill #4\par}
+% name, stack, dates
+\newcommand{\project}[3]{\textbf{#1} | #2\hfill #3\par}
+
+\begin{document}
+\fontsize{10}{11.5}\selectfont
+
+{\centering\textbf{Kenshin Fetalvero}\par}
+\vspace{2pt}
+\hrule height 0.75pt
+
+\heading{Relevant Experience}
+
+\role{BUHAY PLATFORMS INC.}{Taguig, Philippines}
+  {Software Engineer | Applied AI, OCR, RAG, and LLM Applications}{Oct 2024 -- Present}
+Software engineer on a Philippine fintech marketplace connecting SME borrowers with lenders, covering the full loan
+journey from application and credit assessment through collections support. Built and maintain a Turborepo monorepo of
+nine Next.js applications on a Supabase/Postgres backend with durable Inngest workflows, including the borrower portal,
+loan calculator, and lender facing platforms. Enabled repeat loan applications through data modeling with independent
+documents and lifecycle history. Developed the company's AI agents platform of event-driven Python/FastAPI
+microservices with Kafka and gRPC contracts, automating platform operations through an LLM-powered
+document-intelligence pipeline (OCR and structured extraction of financial documents), a multi-channel conversation
+engine (WhatsApp, email), and collections automation with LLM classification and scheduled payment reminders.
+Deployed services to GKE with OpenTelemetry, Loki, and Grafana observability.
+\gap
+
+\role{PFIZER}{Makati, Philippines}
+  {Data Analytics and Full Stack Developer Intern}{May 2024 -- July 2024}
+Developed new features for a data analytics platform using Next.js, GraphQL, React, Hasura, and Figma to enhance user
+onboarding and admin dashboards. Identified standard metrics and captured structured datasets to automate data
+visualization.
+
+\heading{Technical Skills}
+
+{\raggedright
+\textbf{Languages:} JavaScript, TypeScript, Python, SQL, GraphQL, C, Java, Bash\par
+\textbf{Frameworks:} Next.js, React, FastAPI, Express.js\par
+\textbf{Libraries:} Tailwind CSS, TanStack Query, XState, React Aria, Bootstrap, MaterialUI, pandas, numpy\par
+\textbf{Databases \& Backend:} PostgreSQL, Supabase (Auth, Storage, RLS, Edge Functions), MySQL, MongoDB\par
+\textbf{AI/LLM:} LLM structured extraction (BAML), OCR/document-intelligence pipelines, prompt engineering, AI agent
+orchestration\par
+\textbf{Cloud \& Infrastructure:} Google Cloud (GKE, Cloud Run), Kubernetes, Docker, Vercel, Kafka, Inngest,
+gRPC/Protocol Buffers\par
+\textbf{Observability \& Testing:} OpenTelemetry, Grafana, Loki, Vitest\par
+\textbf{Developer Tools:} Git, Docker\par}
+
+\heading{Projects}
+
+\project{Slide}{React, Node.js, Tailwind, WebRTC, WebSockets}{December 2023 -- January 2024}
+\begin{itemize}
+  \item Developed a real-time communication web application allowing users to connect with strangers through either text
+    or video chat based on shared interests.
+  \item Implemented a WebSocket server for handling user connections, channel creation, and real-time messaging.
+  \item Utilized WebRTC to establish secure and efficient peer-to-peer connections for both text and video chat.
+  \item Developed a responsive and user-friendly interface for initiating and participating in chats.
+\end{itemize}
+\gap
+
+\project{Palatable}{MongoDB, Mongoose, Express, Node.js, Bootstrap, jQuery}{June 2023 -- August 2023}
+\begin{itemize}
+  \item Worked with a team to develop a dynamic web application for reviewing restaurants.
+  \item Led the design and modelling of databases, ensuring seamless data storage and retrieval efficiency.
+  \item Implemented functionality for user authentication, profile management, reviews, voting, and search.
+\end{itemize}
+\gap
+
+\project{2DFA Simulation}{Java}{August 2023}
+\begin{itemize}
+  \item Implemented a two-way accepter machine simulation, following Dexter Kozen's 2DFA principles.
+  \item Developed the simulation engine to process user-input strings, determining acceptance or rejection.
+  \item Simulated machine configurations dynamically, allowing users to explore and understand the 2DFA concepts
+    interactively with the options for step-by-step or fast-run simulation.
+\end{itemize}
+
+\heading{Education}
+
+\role{DE LA SALLE UNIVERSITY}{Manila, Philippines}
+  {BS Computer Science Major in Software Technology}{2021 -- 2025}
+Coursework: Data Structures and Algorithms, Object-Oriented Programming, Software Engineering, Machine Learning
+
+\end{document}

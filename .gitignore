@@ -1,0 +1,7 @@
+# CV.pdf is built from CV.tex by the Pages workflow
+CV.pdf
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
