@@ -49,6 +49,10 @@ section p {
     margin-bottom: 0.5em;
 }
 
+section .role {
+    font-style: italic;
+}
+
 section span {
     background-color: var(--lightgray);
     margin: 0.5em;

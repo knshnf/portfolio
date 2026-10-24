@@ -2,8 +2,13 @@ $(document).ready(function() {
     $.getJSON('info.json', function(data) {
         $.each(data.projects, function(i, project) {
             var projectSection = "<section>" +
-                "<h3>" + project.name + "</h3>" +
-                "<p>" + project.description;
+                "<h3>" + project.name + "</h3>";
+
+            if (project.role) {
+                projectSection += "<p class=\"role\">" + project.role + "</p>";
+            }
+
+            projectSection += "<p>" + project.description;
 
             if (project.link !== "") {
                 projectSection += " <a href=\"" + project.link +

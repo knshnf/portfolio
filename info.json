@@ -1,5 +1,13 @@
 {
     "projects": [{
+            "name": "Buhay Platforms",
+            "role": "Software Engineer",
+            "description": "Fintech marketplace connecting Philippine SME borrowers with lenders. Built a Turborepo monorepo of Next.js apps on Supabase, and an AI agents platform of Python microservices for document OCR and extraction, WhatsApp and email conversations, and collections automation.",
+            "link": "",
+            "tags": ["Next.js", "Supabase", "Python", "FastAPI", "Kafka", "GKE"],
+            "date": "October 2024 – Present"
+        },
+        {
             "name": "slide",
             "description": "Real-time communication app for anonymous text and video chat. Allows user to connect with strangers based on shared interest.",
             "link": "https://github.com/knshnf/slide-chat",
