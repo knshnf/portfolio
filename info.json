@@ -2,10 +2,19 @@
     "projects": [{
             "name": "Buhay Platforms",
             "role": "Software Engineer",
-            "description": "Fintech marketplace connecting Philippine SME borrowers with lenders. Built a Turborepo monorepo of Next.js apps on Supabase, and an AI agents platform of Python microservices for document OCR and extraction, WhatsApp and email conversations, and collections automation.",
+            "description": "Fintech marketplace connecting Philippine SME borrowers with lenders. Built the marketplace's borrower, lender, and internal operations platforms, plus an AI agents platform of Python microservices for document OCR and extraction, WhatsApp and email conversations, and collections automation.",
             "link": "",
             "tags": ["Next.js", "Supabase", "Python", "FastAPI", "Kafka", "GKE"],
             "date": "October 2024 – Present"
+        },
+        {
+            "name": "Designing a Collection of Portable Image Enhancement for Smartphones",
+            "role": "Co-author, IEEE M2VIP 2025",
+            "description": "Five-stage Capture, Reduce, Process, Post-process, and Save pipeline for running image enhancement on resource-constrained smartphones, including multi-image super-resolution, dehazing, and shadow removal. Smartphone implementations stay within 5% of desktop baselines in structural similarity.",
+            "link": "https://doi.org/10.1109/M2VIP67511.2025.11165605",
+            "linkText": "IEEE Xplore",
+            "tags": ["Computer Vision", "Image Enhancement", "Mobile"],
+            "date": "August 2025"
         },
         {
             "name": "slide",
@@ -34,13 +43,6 @@
             "link": "https://github.com/knshnf/2dfa-simulation",
             "tags": ["Java"],
             "date": "August 2023"
-        },
-        {
-            "name": "Stock Portfolio Management App",
-            "description": "Stock portfolio management web application with real-time stock data retrieval from IEX API and portfolio tracking.",
-            "link": "",
-            "tags": ["Python", "SQL", "Jinja", "Flask"],
-            "date": "August 2022"
         }
     ]
 }
