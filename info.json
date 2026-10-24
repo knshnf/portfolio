@@ -1,5 +1,5 @@
 {
-    "projects": [{
+    "experience": [{
             "name": "Buhay Platforms",
             "role": "Software Engineer",
             "description": "Fintech marketplace connecting Philippine SME borrowers with lenders. Built the marketplace's borrower, lender, and internal operations platforms, plus an AI agents platform of Python microservices for document OCR and extraction, WhatsApp and email conversations, and collections automation.",
@@ -8,6 +8,15 @@
             "date": "October 2024 – Present"
         },
         {
+            "name": "Pfizer",
+            "role": "Data Analytics and Full Stack Developer Intern",
+            "description": "Developed new features for a data analytics platform to enhance user onboarding and admin dashboards. Identified standard metrics and captured structured datasets to automate data visualization.",
+            "link": "",
+            "tags": ["Next.js", "React", "GraphQL", "Hasura", "Figma"],
+            "date": "May 2024 – July 2024"
+        }
+    ],
+    "projects": [{
             "name": "Designing a Collection of Portable Image Enhancement for Smartphones",
             "role": "Co-author, IEEE M2VIP 2025",
             "description": "Five-stage Capture, Reduce, Process, Post-process, and Save pipeline for running image enhancement on resource-constrained smartphones, including multi-image super-resolution, dehazing, and shadow removal. Smartphone implementations stay within 5% of desktop baselines in structural similarity.",
