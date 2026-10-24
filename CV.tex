@@ -6,6 +6,7 @@
 \renewcommand{\familydefault}{\sfdefault}
 \usepackage{microtype}
 \usepackage{enumitem}
+\usepackage{xcolor}
 \usepackage[hidelinks,pdftitle={Kenshin Fetalvero CV},pdfauthor={Kenshin Fetalvero}]{hyperref}
 
 \pagestyle{empty}
@@ -20,6 +21,8 @@
 \newcommand{\role}[4]{\textbf{#1}\hfill #2\par\textbf{#3}\hfill #4\par}
 % name, stack, dates
 \newcommand{\project}[3]{\textbf{#1} | #2\hfill #3\par}
+\definecolor{linkblue}{HTML}{1155CC}
+\newcommand{\weblink}[1]{\href{#1}{\textcolor{linkblue}{\underline{#1}}}}
 
 \begin{document}
 \fontsize{10}{11.5}\selectfont
@@ -27,6 +30,11 @@
 {\centering\textbf{Kenshin Fetalvero}\par}
 \vspace{2pt}
 \hrule height 0.75pt
+\vspace{2pt}
+{\centering\fontsize{9}{11}\selectfont
+\href{mailto:kenshin.fetalvero@gmail.com}{kenshin.fetalvero@gmail.com} \textbullet{}
+\weblink{https://www.linkedin.com/in/kenshin-fetalvero/} \textbullet{}
+\weblink{https://knshnf.github.io/portfolio/}\par}
 
 \heading{Relevant Experience}
 
